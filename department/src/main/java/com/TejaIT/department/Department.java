@@ -10,7 +10,7 @@ import javax.persistence.Table;
 @Table(name="dept_micrp_tbl")
 public class Department {
 	@Id
-	@GeneratedValue(strategy  =GenerationType.IDENTITY)
+	@GeneratedValue(strategy  =GenerationType.AUTO)
 private Integer dept_id;
 private String  dept_name;
 private String location;
